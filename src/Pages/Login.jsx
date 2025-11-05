@@ -11,7 +11,6 @@ function Login() {
   };
 
   const handleLogin = (e) => {
-    e.preventDefault();
     const storedUser = JSON.parse(localStorage.getItem("user"));
 
     if (

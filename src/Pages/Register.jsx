@@ -16,7 +16,6 @@ function Register() {
   };
 
   const handleRegister = (e) => {
-    e.preventDefault();
     localStorage.setItem("user", JSON.stringify(formData));
     alert("Registration successful!");
     navigate("/login");
